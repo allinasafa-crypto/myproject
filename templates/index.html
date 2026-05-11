@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container">
+    <h1 class="my-2"><b>Select from our range of ice-cream</b></h1>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
+
+<!-- Carousel items -->
+<div class="carousel-inner">
+
+  <!-- Slide 1 -->
+  <div class="carousel-item active">
+    <img src="https://loremflickr.com/1200/400/ice-cream?random=7"
+         class="d-block w-100"
+         style="height:400px; object-fit:cover;"
+         alt="Ice Cream">
+
+    <div class="carousel-caption d-none d-md-block">
+      <h5 style="color: black">Delicious Ice Cream</h5>
+      <p style="color: black">Freshly made with love</p>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="carousel-item">
+    <img src="https://loremflickr.com/1200/400/ice-cream?random=8"
+         class="d-block w-100"
+         style="height:400px; object-fit:cover;"
+         alt="Ice Cream">
+
+    <div class="carousel-caption d-none d-md-block">
+      <h5 style="color: black";>Chocolate Delight</h5>
+      <p style="color: black";>Rich and creamy chocolate ice cream</p>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="carousel-item">
+
+  <img src="https://loremflickr.com/1200/400/ice-cream?random=9"
+       class="d-block w-100"
+       style="height:400px; object-fit:cover;"
+       alt="Ice Cream">
+
+  <div class="carousel-caption d-none d-md-block">
+    <h5 style="color: black">Sweet Treats</h5>
+    <p style="color: black">Perfect dessert for every mood</p>
+  </div>
+</div>
+
+</div>
+   
+<!-- Controls -->
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+</button>
+
+</div>
+</div>
+
+<div class="album py-5 bg-body-tertiary"> 
+    <div class="container"> 
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+
+
+            <div class="col"> 
+                <div class="card shadow-sm"> 
+                    <img src="https://loremflickr.com/1200/400/ice-cream?random=6"
+                    class="card-img-top"
+                    style="height: 225px; object-fit: cover;">
+
+                    <div class="card-body"> 
+                        <p class="card-text">
+                                Enjoy delicious and creamy ice cream made with the finest ingredients. 
+                                Perfect for every sweet craving.
+
+                        </p> 
+
+                        <div class="d-flex justify-content-between align-items-center"> 
+                            <div class="btn-group"> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> 
+                            </div> 
+                            <small class="text-body-secondary">9 mins</small> 
+                        </div> 
+                    </div>
+                </div> 
+            </div> 
+
+            <div class="col"> 
+                <div class="card shadow-sm"> 
+                    <img src="https://loremflickr.com/1200/400/ice-cream?random=5"
+                    class="card-img-top"
+                    style="height: 225px; object-fit: cover;">
+
+                    <div class="card-body"> 
+                        <p class="card-text">
+                            Try our refreshing ice cream flavors that bring happiness in every scoop. 
+                            A perfect treat for hot days.
+                        </p> 
+
+                        <div class="d-flex justify-content-between align-items-center"> 
+                            <div class="btn-group"> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> 
+                            </div> 
+                            <small class="text-body-secondary">9 mins</small> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+
+            <div class="col"> 
+                <div class="card shadow-sm"> 
+                    <img src="https://loremflickr.com/1200/400/ice-cream?random=4"
+                    class="card-img-top"
+                    style="height: 225px; object-fit: cover;">
+
+                    <div class="card-body"> 
+                        <p class="card-text">
+                            A scoop of happiness! Indulge in rich and smooth 
+                            ice cream with a variety of exciting 
+                            flavors to choose from.
+                        </p> 
+
+                        <div class="d-flex justify-content-between align-items-center"> 
+                            <div class="btn-group"> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> 
+                            </div> 
+                            <small class="text-body-secondary">9 mins</small> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+
+            <div class="col"> 
+                <div class="card shadow-sm">
+                    <img src="https://loremflickr.com/1200/400/ice-cream?random=1"
+                    class="card-img-top"
+                    style="height: 225px; object-fit: cover;">
+                     
+                    <div class="card-body"> 
+                        <p class="card-text">
+                            Cool down with our delightful ice cream, bursting with flavor in every bite.
+                        </p> 
+
+                        <div class="d-flex justify-content-between align-items-center"> 
+                            <div class="btn-group"> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> 
+                            </div> 
+                            <small class="text-body-secondary">9 mins</small> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+
+            <div class="col"> 
+                <div class="card shadow-sm"> 
+                    <img src="https://loremflickr.com/1200/400/ice-cream?random=2"
+                    class="card-img-top"
+                    style="height: 225px; object-fit: cover;">
+
+                    <div class="card-body"> 
+                        <p class="card-text">
+                                Enjoy delicious and creamy ice cream made with the finest ingredients. 
+                                Perfect for every sweet craving.
+
+                        </p> 
+
+                        <div class="d-flex justify-content-between align-items-center"> 
+                            <div class="btn-group"> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> 
+                            </div> 
+                            <small class="text-body-secondary">9 mins</small> 
+                        </div> 
+                    </div>
+                </div> 
+            </div> 
+
+
+            <div class="col"> 
+                <div class="card shadow-sm"> 
+                    <img src="https://loremflickr.com/1200/400/ice-cream?random=3"
+                    class="card-img-top"
+                    style="height: 225px; object-fit: cover;">
+
+                    <div class="card-body"> 
+                        <p class="card-text">
+                            Try our refreshing ice cream flavors that bring happiness in every scoop. 
+                            A perfect treat for hot days.
+                        </p> 
+
+                        <div class="d-flex justify-content-between align-items-center"> 
+                            <div class="btn-group"> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button> 
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> 
+                            </div> 
+                            <small class="text-body-secondary">9 mins</small> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+
+
+
+        </div> 
+    </div> 
+</div>
+
+{% endblock body %}
